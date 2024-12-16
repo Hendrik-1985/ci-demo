@@ -10,7 +10,7 @@ int main() {
     // Esslingen University - coordinates
     double latEsslingen = 48.738;
     double lonEsslingen = 9.311;
-// hey das ist ein test noch ein test ok
+    // hey das ist ein test noch ein test ok
     weather.getWeatherData(latEsslingen, lonEsslingen);
     presenter.displayWeather(weather.getWeatherInfo(), "Esslingen University");
 
